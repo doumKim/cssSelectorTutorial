@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.box {
+	background-color: cadetblue;
+	width: 100px;
+	height: 100px;
+}
+
+.box + .box {
+	margin-top: 20px;
+}
+
+.box1 {
+	background-color: chocolate;
+}
+.box2 {
+	background-color: yellowgreen;
+}
+.box3 {
+	background-color: gold;
+}
+.box4 {
+	background-color: silver;
+}
+
+h1 ~ .box {
+	width: 200px;
+}
+
+input[name='userName'] {
+	width: 100px;
+}
